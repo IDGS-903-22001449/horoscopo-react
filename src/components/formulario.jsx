@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './Formulario.css';
+import './formulario.css';
 
 export const Formulario = ({ onSubmit }) => {
   const [nombre, setNombre] = useState('');
