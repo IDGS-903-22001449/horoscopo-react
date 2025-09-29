@@ -12,7 +12,7 @@ export const Resultado = ({ nombre, signo, imagen, horoscopo }) => {
       <div className="resultado-card">
         <img src={imagen} alt={signo} className="resultado-img" />
         <div className="resultado-info">
-          <p className="resultado-nombre">✨ {nombre}</p>
+          <p className="resultado-nombre">{nombre}</p>
           <p className="resultado-signo">{signo}</p>
           <p className="resultado-texto">{horoscopo}</p>
         </div>

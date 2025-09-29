@@ -1,19 +1,11 @@
 .resultado {
-  max-width: 420px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background: #fafafa;
-  border: 1px solid #e0e0e0;
+  width: 100%; /* ocupa toda la columna */
+  padding: 2rem;
   border-radius: 12px;
+  border: 1px solid #e0e0e0;
   font-family: 'Segoe UI', Roboto, sans-serif;
-}
-
-.resultado-titulo {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  color: #333;
+  background: #fafafa;
+  box-sizing: border-box;
 }
 
 .resultado-card {
@@ -23,9 +15,18 @@
 }
 
 .resultado-img {
-  width: 80px;
-  height: 80px;
+  width: 120px;   
+  height: 120px;  
   object-fit: contain;
+}
+
+
+.resultado-titulo {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
 .resultado-info {

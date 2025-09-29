@@ -1,7 +1,5 @@
 .formulario {
-  background: #fafafa;
-  max-width: 360px;
-  margin: 3rem auto;
+  width: 100%; 
   padding: 2rem;
   border-radius: 12px;
   border: 1px solid #e0e0e0;
@@ -9,7 +7,10 @@
   flex-direction: column;
   gap: 1.2rem;
   font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #fafafa;
+  box-sizing: border-box;
 }
+
 
 .titulo {
   text-align: center;
@@ -26,17 +27,19 @@
   border-radius: 8px;
   font-size: 0.95rem;
   background: #fff;
+  color: #111; 
   transition: all 0.2s ease;
 }
 
+
 .input:focus {
   outline: none;
-  border-color: #6366f1; /* Indigo suave */
+  border-color: #6366f1; 
   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
 }
 
 .boton {
-  background: #6366f1; /* Indigo moderno */
+  background: #6366f1;
   color: white;
   padding: 0.8rem;
   border: none;
